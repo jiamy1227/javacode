@@ -7,9 +7,11 @@ import java.util.List;
 import java.util.Properties;
 import java.util.Vector;
 
+import org.apache.log4j.Logger;
+import org.apache.log4j.spi.LoggerFactory;
 import org.bouncycastle.jce.provider.BouncyCastleProvider;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+//import org.slf4j.Logger;
+//import org.slf4j.LoggerFactory;
 
 import com.jcraft.jsch.Channel;
 import com.jcraft.jsch.ChannelSftp;
@@ -19,7 +21,7 @@ import com.jcraft.jsch.Session;
 import sun.dc.path.PathError;
 
 public class FtpsFileList {
-    private static final Logger LOG = LoggerFactory.getLogger(FtpsFileList.class);
+    private static final Logger LOG = Logger.getLogger(FtpsFileList.class);
 
     private static ChannelSftp sftp = null;
     private static Channel channel = null;

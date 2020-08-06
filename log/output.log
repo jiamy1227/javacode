@@ -1,0 +1,6 @@
+15:19:49.388 [main] INFO  javaee.logging.LogbackTest - info
+15:19:49.390 [main] WARN  javaee.logging.LogbackTest - warn
+15:19:49.390 [main] ERROR javaee.logging.LogbackTest - error
+15:23:07.427 [main] INFO  javaee.logging.LogbackTest - info
+15:23:07.429 [main] WARN  javaee.logging.LogbackTest - warn
+15:23:07.429 [main] ERROR javaee.logging.LogbackTest - error
