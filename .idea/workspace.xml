@@ -8,8 +8,9 @@
   <component name="ChangeListManager">
     <list default="true" id="5c8c320a-7f6b-48f4-aee0-ee81889c5a12" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/javaee/Reflection/ClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javaee/Reflection/ClassTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/javaee/Reflection/ClassTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/javaee/Reflection/ClassTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/javaee/Reflection/FieldTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javaee/Reflection/FieldTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/javaee/Reflection/FieldTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/javaee/Reflection/FieldTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/javaee/Reflection/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/javaee/Reflection/Person.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +43,7 @@
         <option value="FxmlFile" />
         <option value="Tag Library Descriptor" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -88,7 +90,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/javaee/Exception" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/javaee/Reflection/annotation" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -106,12 +108,13 @@
       <recent name="javaee.Polymorphism" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\jiamy\repository\javacode\src\main\java\javaee\Reflection\annotation" />
       <recent name="E:\jiamy\repository\javacode\src\main\java\javaee\Exception" />
       <recent name="E:\jiamy\repository\javacode\src\main\java\javaee\logging" />
       <recent name="E:\jiamy\repository\javacode\src\main\lib" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FieldTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="ClassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javaee.Reflection.ClassTest" />
       <module name="javacode" />
@@ -124,17 +127,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="CommonsLogging" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaee.logging.CommonsLogging" />
-      <module name="javacode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javaee.logging.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2" />
     </configuration>
     <configuration name="FieldTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javaee.Reflection.FieldTest" />
@@ -149,17 +141,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Log4jTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaee.logging.Log4jTest" />
-      <module name="javacode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javaee.logging.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2" />
-    </configuration>
     <configuration name="LogbackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javaee.logging.LogbackTest" />
       <module name="javacode" />
@@ -171,12 +152,25 @@
       </extension>
       <method v="2" />
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaee.Polymorphism.Test" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaee.Reflection.annotation.Main" />
       <module name="javacode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javaee.Polymorphism.*" />
+          <option name="PATTERN" value="javaee.Reflection.annotation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaee.Reflection.dynamicproxy.Test" />
+      <module name="javacode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javaee.Reflection.dynamicproxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -185,19 +179,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CommonsLogging" />
-      <item itemvalue="Application.Log4jTest" />
       <item itemvalue="Application.LogbackTest" />
       <item itemvalue="Application.ClassTest" />
       <item itemvalue="Application.FieldTest" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.FieldTest" />
         <item itemvalue="Application.ClassTest" />
         <item itemvalue="Application.LogbackTest" />
-        <item itemvalue="Application.Log4jTest" />
-        <item itemvalue="Application.CommonsLogging" />
       </list>
     </recent_temporary>
   </component>
@@ -249,54 +243,54 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596697329618" />
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1596520226732">
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1596782219307">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1596520226732" />
-    <state x="715" y="222" key="#xdebugger.evaluate" timestamp="1596188870859">
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1596782219307" />
+    <state x="715" y="222" key="#xdebugger.evaluate" timestamp="1596780588236">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="715" y="222" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1596188870859" />
-    <state width="777" height="692" key="DebuggerActiveHint" timestamp="1596189153707">
+    <state x="715" y="222" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1596780588236" />
+    <state width="777" height="692" key="DebuggerActiveHint" timestamp="1596780575308">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="777" height="692" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1596189153707" />
+    <state width="777" height="692" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1596780575308" />
     <state x="1192" y="410" key="FileChooserDialogImpl" timestamp="1596677038241">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1192" y="410" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1596677038241" />
-    <state width="1877" height="148" key="GridCell.Tab.0.bottom" timestamp="1596705700708">
+    <state width="1877" height="279" key="GridCell.Tab.0.bottom" timestamp="1596794204176">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="148" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596705700708" />
-    <state width="1877" height="148" key="GridCell.Tab.0.center" timestamp="1596705700708">
+    <state width="1877" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596794204176" />
+    <state width="1877" height="279" key="GridCell.Tab.0.center" timestamp="1596794204175">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="148" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596705700708" />
-    <state width="1877" height="148" key="GridCell.Tab.0.left" timestamp="1596705700708">
+    <state width="1877" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596794204175" />
+    <state width="1877" height="279" key="GridCell.Tab.0.left" timestamp="1596794204175">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="148" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596705700708" />
-    <state width="1877" height="148" key="GridCell.Tab.0.right" timestamp="1596705700708">
+    <state width="1877" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596794204175" />
+    <state width="1877" height="279" key="GridCell.Tab.0.right" timestamp="1596794204175">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="148" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596705700708" />
-    <state width="1877" height="279" key="GridCell.Tab.1.bottom" timestamp="1596193744466">
+    <state width="1877" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596794204175" />
+    <state width="1877" height="279" key="GridCell.Tab.1.bottom" timestamp="1596794204176">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="279" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596193744466" />
-    <state width="1877" height="279" key="GridCell.Tab.1.center" timestamp="1596193744466">
+    <state width="1877" height="279" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596794204176" />
+    <state width="1877" height="279" key="GridCell.Tab.1.center" timestamp="1596794204176">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="279" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596193744466" />
-    <state width="1877" height="279" key="GridCell.Tab.1.left" timestamp="1596193744465">
+    <state width="1877" height="279" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596794204176" />
+    <state width="1877" height="279" key="GridCell.Tab.1.left" timestamp="1596794204176">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="279" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596193744465" />
-    <state width="1877" height="279" key="GridCell.Tab.1.right" timestamp="1596193744466">
+    <state width="1877" height="279" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596794204176" />
+    <state width="1877" height="279" key="GridCell.Tab.1.right" timestamp="1596794204176">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="279" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596193744466" />
+    <state width="1877" height="279" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596794204176" />
     <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1596683261777">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -344,6 +338,11 @@
           <url>jar://C:/Program Files/Java/jdk1.6.0_45/src.zip!/java/security/Security.java</url>
           <line>330</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/javaee/Reflection/FieldTest.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
