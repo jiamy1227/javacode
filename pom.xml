@@ -13,15 +13,6 @@
         <artifactId>jsch</artifactId>
         <version>0.1.49</version>
     </dependency>
-    <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
-    <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
-<!--    <dependency>-->
-<!--        <groupId>org.slf4j</groupId>-->
-<!--        <artifactId>slf4j-api</artifactId>-->
-<!--        <version>1.6.6</version>-->
-<!--    </dependency>-->
-    <!-- https://mvnrepository.com/artifact/org.bouncycastle/bcprov-jdk15on -->
-    <!-- https://mvnrepository.com/artifact/org.bouncycastle/bcprov-jdk15on -->
 
     <dependency>
         <groupId>commons-logging</groupId>
