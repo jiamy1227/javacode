@@ -1,4 +1,4 @@
-package ChannelSftp;
+package javaee.ChannelSftp;
 
 import java.io.*;
 import java.security.Security;
@@ -8,14 +8,12 @@ import java.util.Properties;
 import java.util.Vector;
 
 import org.apache.log4j.Logger;
-import org.apache.log4j.spi.LoggerFactory;
 import org.bouncycastle.jce.provider.BouncyCastleProvider;
 //import org.slf4j.Logger;
 //import org.slf4j.LoggerFactory;
 
 import com.jcraft.jsch.Channel;
 import com.jcraft.jsch.ChannelSftp;
-import com.jcraft.jsch.ChannelSftp.LsEntry;
 import com.jcraft.jsch.JSch;
 import com.jcraft.jsch.Session;
 import sun.dc.path.PathError;
