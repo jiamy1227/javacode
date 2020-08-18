@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="DataBus-Client-5.4">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/main/lib/DataBus-Client-5.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
