@@ -15,8 +15,8 @@ import java.io.PrintWriter;
  * @Create on : 2020/8/20 16:37
  **/
 
-@WebServlet(urlPatterns = "/hello")
-public class HelloServlet extends HttpServlet {
+@WebServlet(urlPatterns = "/hi")
+public class HiServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp)
             throws ServletException, IOException {
         // 设置响应类型:
@@ -30,12 +30,13 @@ public class HelloServlet extends HttpServlet {
         System.out.println(req.getRemoteAddr());
 
         // 获取输出流:
-        PrintWriter pw = resp.getWriter();
+        //PrintWriter pw = resp.getWriter();
         // 写入响应:
-        pw.write("<h1>Haaaaaaaaaello, "+name+"!</h1>");
+        //pw.write("<h1>hi, "+name+"!</h1>");
         // 最后不要忘记flush强制输出:
-        pw.flush();
+        //pw.flush();
 
-        req.getSession();
+        //resp.sendRedirect("/javaweb/hello");
+        req.getRequestDispatcher("/say").forward(req,resp);
     }
 }
